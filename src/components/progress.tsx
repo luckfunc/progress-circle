@@ -46,16 +46,16 @@ export default function Progress({
           transform={`rotate(-90 ${size / 2} ${size / 2})`}
         />
       </svg>
-      <img 
-        src={logo} 
-        alt='logo' 
+      <img
+        src={logo}
+        alt='logo'
         style={{
           position: 'absolute',
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
-          width: 92,
-          height: 92,
+          width: size - strokeWidth * 2,
+          height: size - strokeWidth * 2,
           borderRadius: '50%',
         }}
       />
